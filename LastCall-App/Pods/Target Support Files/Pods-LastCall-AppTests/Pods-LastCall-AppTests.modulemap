@@ -1,0 +1,6 @@
+framework module Pods_LastCall_AppTests {
+  umbrella header "Pods-LastCall-AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
