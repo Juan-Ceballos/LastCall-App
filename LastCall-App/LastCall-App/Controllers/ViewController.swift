@@ -8,13 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let firstTabView = FirstTabView()
+    
+    override func loadView() {
+        view = firstTabView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         view.backgroundColor = .systemPink
     }
 
-let stuff = "stuff"
 }
 
